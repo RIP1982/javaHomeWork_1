@@ -5,6 +5,7 @@ public class task_1 {
         Scanner iScanner = new Scanner(System.in);
         System.out.printf("Input n: ");
         int n = Integer.parseInt(iScanner.nextLine());
+        iScanner.close();
         System.out.println("1 + ... + n = " + sum(n)); 
         System.out.println("1 * ... * n = " + multiply(n));
     }
